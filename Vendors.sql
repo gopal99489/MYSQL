@@ -1,0 +1,3 @@
+
+CREATE TABLE Vendors(vend_id VARCHAR(10), vend_name VARCHAR(40), vend_address VARCHAR(100), vend_city VARCHAR(30), vend_state VARCHAR(30), vend_zip VARCHAR(10), vend_country VARCHAR(30));
+INSERT INTO Vendors (vend_id, vend_name, vend_address, vend_city, vend_state, vend_zip, vend_country) VALUES('VND001', 'John', 'ABC street', 'Vijayawada', 'Andhra Pradesh', '521241', 'India'), ('VND002', 'Walter', 'XYZ street', 'New Mexico', 'Albuquerque', '500081', 'United States'), ('VND003', 'Rogger', 'East street', 'Logue town', 'West Blue', '202314', 'Japan'), ('VND004', 'Nami', 'Coco street', 'Cocoashi', 'Arlong', '478521', 'Japan'), ('VND005', 'Lufy', 'Shanks street', 'Pirate city', NULL, '100001', 'One piece');
